@@ -1,7 +1,6 @@
 {
   "name": "mrfritsz-bot",
   "version": "1.0.0",
-  "description": "",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,21 +19,26 @@
   ],
   "author": "MrFritsz",
   "license": "MIT",
-  "bugs": {},
   "engines": {
     "node": "12.x"
   },
   "dependencies": {
     "@discordjs/opus": "^0.3.2",
+    "@discordjs/uws": "^10.149.0",
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.2.5",
     "git": "^0.1.5",
+    "opus": "0.0.0",
     "simple-youtube-api": "^5.2.1",
-    "ytdl-core": "^2.1.5",
+    "ytdl-core": "^2.1.7",
     "zealcord.js": "^1.1.2"
   },
   "optionalDependencies": {
     "@discordjs/uws": "^10.149.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
